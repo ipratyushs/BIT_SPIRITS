@@ -1,0 +1,1409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+<link rel="icon" href="img/favicon.ico">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>SPIRITS'17</title>
+     <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+     <link href="http://fonts.googleapis.com/css?family=Abel" rel="stylesheet" type="text/css">
+      <link href="http://fonts.googleapis.com/css?family=Megrim" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Short+Stack' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Galindo' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.1.2/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.1.2/material.min.js"></script>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <!--Carousel CSS-->
+    <link rel='stylesheet prefetch' href='https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/animate.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+    <!-- Theme CSS -->
+    <link href="css/grayscale.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<style>
+                .demo-card-event.mdl-card {
+                    width: 256px;
+                    height: 256px;
+                    background: #616161;
+                }
+                .demo-card-event > .mdl-card__actions {
+                    border-color: rgba(255, 255, 255, 0.2);
+                }
+                .demo-card-event > .mdl-card__title {
+                    align-items: flex-start;
+                }
+                .demo-card-event > .mdl-card__title > h4 {
+                    margin-top: 0;
+                }
+                .demo-card-event > .mdl-card__actions {
+                    display: flex;
+                    box-sizing:border-box;
+                    align-items: center;
+                }
+                .demo-card-event > .mdl-card__actions > .material-icons {
+                    padding-right: 10px;
+                }
+                .demo-card-event > .mdl-card__title,
+                .demo-card-event > .mdl-card__actions,
+                .demo-card-event > .mdl-card__actions > .mdl-button {
+                    color: #fff;
+                }
+                </style>
+                <style type="text/css">
+                    .panel-default > .panel-body {
+                    color: #333;
+                     background-color: #D3EFF0;
+                    border-color: #D3EFF0;
+                    }
+                    
+                </style>
+
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                   <span class="light">SPIRITS</span>
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#event">Events</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="https://goo.gl/forms/aA7zYkqEslyxUYL72">Register</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#">Team</a>
+                    </li>
+                    <li>
+					<a title="Like us on Facebook" data-placement="center" href="https://www.facebook.com/spirits2017/" target="_blank" class="btn btn-white btn-simple btn-just-icon">
+						<i class="fa fa-facebook-square"></i>
+					</a>
+				</li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        
+                        <h1 class="brand-heading">SPIRITS'17
+                           </h1>
+                        <a href="#about" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Carousel-->
+   
+       <!-- About Section -->
+
+    
+
+<!-- /.container -->
+    </section>
+
+    <section id="about" class="content-section text-center">
+    <div class="container">
+        
+            
+                    <div class="alert alert-info alert-dismissible" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">&Chi;</button>
+  <strong>Results are out!</strong>
+</div>
+            </div>
+    <div class="container">
+  <h3 style="font-family: 'Montserrat', cursive;" >About</h3>
+  <div class="panel panel-default">
+    <div class="panel-body"> <h4 style="font-family: 'Abel', cursive; color:#1976D2" >Thrill, joy and ecstasy are words that are synonymous with BITXTREME, the Annual Cultural Fest of </br>Birla Institute of Technology, Noida.</h4></br>
+<h4 style="font-family: 'Abel', cursive; color:#1976D2">BIT XTREME is a two day extravaganza; a celebration of sorts; a dense, fun-filled embodiment of the energy and conviviality which characterizes college life; a festival oozing with fun, vibrancy and entertainment. It is a product of dreams ambition and tireless hard work, a true testimony to the indomitable spirit, liveliness and sheer energy of the youth.</h4></div>
+  </div>
+</div>
+    </section>
+
+
+    <!-- Download Section -->
+    <section id="event" class="content-section text-center">
+    <div class="container-fluid cards-row">
+    
+            <div class="container">
+    
+        <div class="row">
+            
+                <h3 style="font-family: 'Montserrat', cursive;" >GET STARTED</h3>
+            </div>
+            <div class="row">
+            <div class="col-sm-8 col-md-4 col-xs-12">
+                <!-- Square card -->
+                <style>
+                    .demo-card-square8.mdl-card {
+                    width: 320px;
+                    height: 320px;
+                    margin: 8px;border-radius: 15px;
+                    }
+                    .demo-card-square8 > .mdl-card__title {
+                    color: #fff;
+                    background:
+                        url('img/quiz.jpg') center 15% no-repeat #03A9F4;
+                    }
+                </style>
+
+                <div class="demo-card-square8 mdl-card mdl-shadow--2dp">
+                    <div class="mdl-card__title mdl-card--expand">
+                        <h2 class="mdl-card__title-text">#Tech Quiz</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        Are you tech-savy? Then get ready for this intense event.
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border">
+                       <a href="https://goo.gl/forms/aA7zYkqEslyxUYL72" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                        REGISTER
+                        </a>
+                        
+                        <button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" data-toggle="modal" data-target="#myModal">
+                                          Rules
+                                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-8 col-md-4 col-xs-12">
+                <!-- Square card -->
+                <style>
+                    .demo-card-square3.mdl-card {
+                    width: 320px;
+                    height: 320px;
+                    margin: 8px;border-radius: 15px;
+                    }
+                    .demo-card-square3 > .mdl-card__title {
+                    color: #fff;
+                    background:
+                        url('img/chai.jpg')  15% no-repeat #00BCD4;
+                    }
+                </style>
+
+            <div class="demo-card-square3 mdl-card mdl-shadow--2dp">
+                <div class="mdl-card__title mdl-card--expand">
+                    <h2 class="mdl-card__title-text">#Chai Par Charcha</h2>
+                </div>
+                <div class="mdl-card__supporting-text">
+                    Experience intense talks with a sip of tea.<br>Topic-"Demonetization-A step towards better economy"
+                </div>
+                <div class="mdl-card__actions mdl-card--border">
+                    <a href="https://goo.gl/forms/aA7zYkqEslyxUYL72" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                        REGISTER
+                    </a>
+                   <button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" data-toggle="modal" data-target="#cpc">
+                                          Rules
+                                        </button>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-8 col-md-4 col-xs-12">
+                <!-- Square card -->
+                <style>
+                    .demo-card-square4.mdl-card {
+                    width: 320px;
+                    height: 320px;
+                    margin: 8px;border-radius: 15px;
+                    }
+                    .demo-card-square4 > .mdl-card__title {
+                    color: #fff;
+                    background:
+                        url('img/bbs.jpg')  10% no-repeat #009688;
+                    }
+                </style>
+
+            <div class="demo-card-square4 mdl-card mdl-shadow--2dp">
+                <div class="mdl-card__title mdl-card--expand">
+                    <h2 class="mdl-card__title-text">#Beg Borrow Steal</h2>
+                </div>
+                <div class="mdl-card__supporting-text">
+                    Check every item in the list in the shortest time possible.
+                </div>
+                <div class="mdl-card__actions mdl-card--border">
+                    <a href="https://goo.gl/forms/aA7zYkqEslyxUYL72" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                        REGISTER
+                    </a>
+                    <button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" data-toggle="modal" data-target="#bbs">
+                                          Rules
+                                        </button>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </div>
+    </div>
+    
+    <div class="container">
+        <div class="row">
+            
+            <div class="col-sm-6 col-md-4 col-xs-12">
+                <!-- Event card -->
+                <style>
+                .demo-card-event.mdl-card {
+                    width: 256px;
+                    height: 256px;
+                    background: #616161;
+                }
+                .demo-card-event > .mdl-card__actions {
+                    border-color: rgba(255, 255, 255, 0.2);
+                }
+                .demo-card-event > .mdl-card__title {
+                    align-items: flex-start;
+                }
+                .demo-card-event > .mdl-card__title > h4 {
+                    margin-top: 0;
+                }
+                .demo-card-event > .mdl-card__actions {
+                    display: flex;
+                    box-sizing:border-box;
+                    align-items: center;
+                }
+                .demo-card-event > .mdl-card__actions > .material-icons {
+                    padding-right: 10px;
+                }
+                .demo-card-event > .mdl-card__title,
+                .demo-card-event > .mdl-card__actions,
+                .demo-card-event > .mdl-card__actions > .mdl-button {
+                    color: #fff;
+                }
+                </style>
+
+                
+            </div>
+        </div>
+    
+        <div class="row">
+            
+                <br></br>
+            </div>
+            <div class="col-sm-6 col-md-4 col-xs-12">
+
+                <!-- Square card -->
+                <style>
+                    .demo-card-square12.mdl-card {
+                    width: 320px;
+                    height: 320px;
+                    margin: 8px;border-radius: 15px;
+                    }
+                    .demo-card-square12 > .mdl-card__title {
+                    color: #fff;
+                    background:
+                        url('img/dramebazz.jpg') center no-repeat #46B6AC;
+                    }
+                </style>
+
+                <div class="demo-card-square12 mdl-card mdl-shadow--2dp">
+                    <div class="mdl-card__title mdl-card--expand">
+                        <h2 class="mdl-card__title-text">#Dramebaaz</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        Dramebaaz toh mera dusra naam hai.
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border">
+                       <a href="https://goo.gl/forms/aA7zYkqEslyxUYL72" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                        REGISTER
+                        </a>
+                        <button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" data-toggle="modal" data-target="#dram">
+                                          Rules
+                                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <!-- Square card -->
+                <style>
+                    .demo-card-square14.mdl-card {
+                    width: 320px;
+                    height: 320px;
+                    margin: 8px;border-radius: 15px;
+                    }
+                    .demo-card-square14 > .mdl-card__title {
+                    color: #fff;
+                    background:
+                        url('img/cpd.jpg') center no-repeat #46B6AC;
+                    }
+                </style>
+
+            <div class="demo-card-square14 mdl-card mdl-shadow--2dp">
+                <div class="mdl-card__title mdl-card--expand">
+                    <h2 class="mdl-card__title-text">#ChancePeDance</h2>
+                </div>
+                <div class="mdl-card__supporting-text">
+                    Come show us your grooooves
+                </div>
+                <div class="mdl-card__actions mdl-card--border">
+                    <a href="https://goo.gl/forms/aA7zYkqEslyxUYL72" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                        REGISTER
+                    </a>
+                    <button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" data-toggle="modal" data-target="#cpd">
+                                          Rules
+                                        </button>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+                <!-- Square card -->
+                <style>
+                    .demo-card-square17.mdl-card {
+                    width: 320px;
+                    height: 320px;
+                    margin: 8px;border-radius: 15px;
+                    }
+                    .demo-card-square17 > .mdl-card__title {
+                    color: #fff;
+                    background:
+                        url('img/sing.jpg') center 15% no-repeat #46B6AC;
+                    }
+                </style>
+
+            <div class="demo-card-square17 mdl-card mdl-shadow--2dp">
+                <div class="mdl-card__title mdl-card--expand">
+                    <h2 class="mdl-card__title-text">#Singing</h2>
+                </div>
+                <div class="mdl-card__supporting-text">
+                    Got fantastic voice? Be the one to touch everyone's heart.
+                </div>
+                <div class="mdl-card__actions mdl-card--border">
+                    <a href="https://goo.gl/forms/aA7zYkqEslyxUYL72" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                        REGISTER
+                    </a>
+                    <button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" data-toggle="modal" data-target="#sing">
+                                          Rules
+                                        </button>
+                </div>
+            </div>
+        </div>
+      
+    </div>
+    
+
+        
+        
+        <div class="container">
+        <div class="row">
+            
+            <div class="col-sm-6 col-md-4">
+                <!-- Event card -->
+                <style>
+                .demo-card-event.mdl-card {
+                    width: 256px;
+                    height: 256px;
+                    background: #616161;
+                }
+                .demo-card-event > .mdl-card__actions {
+                    border-color: rgba(255, 255, 255, 0.2);
+                }
+                .demo-card-event > .mdl-card__title {
+                    align-items: flex-start;
+                }
+                .demo-card-event > .mdl-card__title > h4 {
+                    margin-top: 0;
+                }
+                .demo-card-event > .mdl-card__actions {
+                    display: flex;
+                    box-sizing:border-box;
+                    align-items: center;
+                }
+                .demo-card-event > .mdl-card__actions > .material-icons {
+                    padding-right: 10px;
+                }
+                .demo-card-event > .mdl-card__title,
+                .demo-card-event > .mdl-card__actions,
+                .demo-card-event > .mdl-card__actions > .mdl-button {
+                    color: #fff;
+                }
+                </style>
+
+                
+            </div>
+        </div>
+        <br></br>
+    
+        <div class="row">
+            
+                
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <!-- Square card -->
+                <style>
+                    .demo-card-square21.mdl-card {
+                    width: 320px;
+                    height: 320px;
+                    margin: 8px;border-radius: 15px;
+                    }
+                    .demo-card-square21 > .mdl-card__title {
+                    color: #fff;
+                    background:
+                        url('img/dus.jpg') center 15% no-repeat #46B6AC;
+                    }
+                </style>
+
+                <div class="demo-card-square21 mdl-card mdl-shadow--2dp">
+                    <div class="mdl-card__title mdl-card--expand">
+                        <h2 class="mdl-card__title-text">#Antakshari</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        A duet performance.
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border">
+                       <a href="https://goo.gl/forms/aA7zYkqEslyxUYL72" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                        REGISTER
+                        </a><button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" data-toggle="modal" data-target="#msmt">
+                                          Rules
+                                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <!-- Square card -->
+                <style>
+                    .demo-card-square40.mdl-card {
+                    width: 320px;
+                    height: 320px;
+                    margin: 8px;border-radius: 15px;
+                    }
+                    .demo-card-square40 > .mdl-card__title {
+                    color: #fff;
+                    background:
+                        url('img/face.jpg') center 15% no-repeat #000;
+                    }
+                </style>
+
+            <div class="demo-card-square40 mdl-card mdl-shadow--2dp">
+                <div class="mdl-card__title mdl-card--expand">
+                    <h2 class="mdl-card__title-text">#Facepainting</h2>
+                </div>
+                <div class="mdl-card__supporting-text">
+                    Got the artist in you? 
+                </div>
+                <div class="mdl-card__actions mdl-card--border">
+                    <a href="https://goo.gl/forms/aA7zYkqEslyxUYL72" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                        REGISTER
+                    </a>
+                    <button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" data-toggle="modal" data-target="#fp">
+                                          Rules
+                                        </button>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+                <!-- Square card -->
+                <style>
+                    .demo-card-square47.mdl-card {
+                    width: 320px;
+                    height: 320px;
+                    margin: 8px;border-radius: 15px;
+                    }
+                    .demo-card-square47 > .mdl-card__title {
+                    color: #fff;
+                    background:
+                        url('img/rang.jpg') bottom right 15% no-repeat #000;
+                    }
+                </style>
+
+            <div class="demo-card-square47 mdl-card mdl-shadow--2dp">
+                <div class="mdl-card__title mdl-card--expand">
+                    <h2 class="mdl-card__title-text">#Rangoli</h2>
+                </div>
+                <div class="mdl-card__supporting-text">
+                    Bring out the colors in you.
+                </div>
+                
+                <div class="mdl-card__actions mdl-card--border">
+                    <a href="https://goo.gl/forms/aA7zYkqEslyxUYL72" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                        REGISTER
+                    </a>
+                    <button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" data-toggle="modal" data-target="#rang">
+                                          Rules
+                                        </button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="container">
+        <div class="row">
+            
+            <div class="col-sm-6 col-md-4">
+                <!-- Event card -->
+                <style>
+                .demo-card-event.mdl-card {
+                    width: 256px;
+                    height: 256px;
+                    background: #616161;
+                }
+                .demo-card-event > .mdl-card__actions {
+                    border-color: rgba(255, 255, 255, 0.2);
+                }
+                .demo-card-event > .mdl-card__title {
+                    align-items: flex-start;
+                }
+                .demo-card-event > .mdl-card__title > h4 {
+                    margin-top: 0;
+                }
+                .demo-card-event > .mdl-card__actions {
+                    display: flex;
+                    box-sizing:border-box;
+                    align-items: center;
+                }
+                .demo-card-event > .mdl-card__actions > .material-icons {
+                    padding-right: 10px;
+                }
+                .demo-card-event > .mdl-card__title,
+                .demo-card-event > .mdl-card__actions,
+                .demo-card-event > .mdl-card__actions > .mdl-button {
+                    color: #fff;
+                }
+                </style>
+
+                
+            </div>
+        </div>
+        <br></br>
+    
+        <div class="row">
+            
+                
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <!-- Square card -->
+                <style>
+                    .demo-card-square71.mdl-card {
+                    width: 320px;
+                    height: 320px;
+                    margin: 8px;border-radius: 15px;
+                    }
+                    .demo-card-square71 > .mdl-card__title {
+                    color: #fff;
+                    background:
+                        url('img/jam.jpg') center  no-repeat #46B6AC;
+                    }
+                </style>
+
+                <div class="demo-card-square71 mdl-card mdl-shadow--2dp">
+                    <div class="mdl-card__title mdl-card--expand">
+                        <h2 class="mdl-card__title-text">#JAM</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                    Quick,you only have a minute to complete the task!
+                </div>
+                    
+                    <div class="mdl-card__actions mdl-card--border">
+                       <a href="https://goo.gl/forms/aA7zYkqEslyxUYL72" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                        REGISTER
+                        </a><button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" data-toggle="modal" data-target="#jam">
+                                          Rules
+                                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <!-- Square card -->
+                <style>
+                    .demo-card-square52.mdl-card {
+                    width: 320px;
+                    height: 320px;
+                    margin: 8px;border-radius: 15px;
+                    }
+                    .demo-card-square52 > .mdl-card__title {
+                    color: #fff;
+                    background:
+                        url('img/lc.jpg') center 15% no-repeat #000;
+                    }
+                </style>
+
+            <div class="demo-card-square52 mdl-card mdl-shadow--2dp">
+                <div class="mdl-card__title mdl-card--expand">
+                    <h2 class="mdl-card__title-text">#Laughter Challenge</h2>
+                </div>
+                <div class="mdl-card__supporting-text">
+                    Are you the next stand-up comedian?
+                </div>
+                <div class="mdl-card__actions mdl-card--border">
+                    <a href="https://goo.gl/forms/aA7zYkqEslyxUYL72" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                        REGISTER
+                    </a>
+                    <button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" data-toggle="modal" data-target="#lc">
+                                          Rules
+                                        </button>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+                <!-- Square card -->
+                <style>
+                    .demo-card-square32.mdl-card {
+                    width: 320px;
+                    height: 320px;
+                    margin: 8px;border-radius: 15px;
+                    }
+                    .demo-card-square32 > .mdl-card__title {
+                    color: #000;
+                    background:
+                        url('img/ad.jpg')  15% no-repeat #000;
+                    }
+                </style>
+
+            <div class="demo-card-square32 mdl-card mdl-shadow--2dp">
+                <div class="mdl-card__title mdl-card--expand">
+                    <h2 class="mdl-card__title-text">#Fab AD for the MAD</h2>
+                </div>
+                <div class="mdl-card__supporting-text">
+                    Show your advertising skills.
+                </div>
+                
+                <div class="mdl-card__actions mdl-card--border">
+                    <a href="https://goo.gl/forms/aA7zYkqEslyxUYL72" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                        REGISTER
+                    </a>
+                    <button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" data-toggle="modal" data-target="#faftm">
+                                          Rules
+                                        </button>
+                </div>
+            </div>
+        </div>
+        
+
+    
+   
+    <div class="container">
+        
+            
+            <div class="col-sm-6 col-md-4">
+                <!-- Event card -->
+                <style>
+                .demo-card-event.mdl-card {
+                    width: 256px;
+                    height: 256px;
+                    background: #616161;
+                }
+                .demo-card-event > .mdl-card__actions {
+                    border-color: rgba(255, 255, 255, 0.2);
+                }
+                .demo-card-event > .mdl-card__title {
+                    align-items: flex-start;
+                }
+                .demo-card-event > .mdl-card__title > h4 {
+                    margin-top: 0;
+                }
+                .demo-card-event > .mdl-card__actions {
+                    display: flex;
+                    box-sizing:border-box;
+                    align-items: center;
+                }
+                .demo-card-event > .mdl-card__actions > .material-icons {
+                    padding-right: 10px;
+                }
+                .demo-card-event > .mdl-card__title,
+                .demo-card-event > .mdl-card__actions,
+                .demo-card-event > .mdl-card__actions > .mdl-button {
+                    color: #fff;
+                }
+                </style>
+
+                
+            </div>
+        </div>
+        
+        <br></br>
+    
+   
+            <div class="col-sm-6 col-md-4">
+                <!-- Square card -->
+                <style>
+                    .demo-card-square16.mdl-card {
+                    width: 320px;
+                    height: 320px;
+                    margin: 8px;border-radius: 15px;
+                    }
+                    .demo-card-square16 > .mdl-card__title {
+                    color: #fff;
+                    background:
+                        url('img/mock.png')  15% no-repeat #46B6AC;
+                    }
+                </style>
+
+                <div class="demo-card-square16 mdl-card mdl-shadow--2dp">
+                    <div class="mdl-card__title mdl-card--expand">
+                        <h2 class="mdl-card__title-text">#Mock Interview</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        Test your skills.
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border">
+                       <a href="https://goo.gl/forms/aA7zYkqEslyxUYL72" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                        REGISTER
+                        </a><button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" data-toggle="modal" data-target="#mi">
+                                          Rules
+                                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <!-- Square card -->
+                <style>
+                    .demo-card-square54.mdl-card {
+                    width: 320px;
+                    height: 320px;
+                    margin: 8px;border-radius: 15px;
+                    }
+                    .demo-card-square54 > .mdl-card__title {
+                    color: #fff;
+                    background:
+                        url('img/mrs.jpeg')  15% no-repeat #46B6AC;
+                    }
+                </style>
+
+                <div class="demo-card-square54 mdl-card mdl-shadow--2dp">
+                    <div class="mdl-card__title mdl-card--expand">
+                        <h2 class="mdl-card__title-text">#Mr. and Mrs. BIT</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        Take on the ramp.
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border">
+                       <a href="https://goo.gl/forms/aA7zYkqEslyxUYL72" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                        REGISTER
+                        </a><button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" data-toggle="modal" data-target="#mrmrs">
+                                          Rules
+                                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <!-- Square card -->
+                <style>
+                    .demo-card-square65.mdl-card {
+                    width: 320px;
+                    height: 320px;
+                    margin: 8px;border-radius: 15px;
+                    }
+                    .demo-card-square65 > .mdl-card__title {
+                    color: #fff;
+                    background:
+                        url('img/bow.jpg')  15% no-repeat #46B6AC;
+                    }
+                </style>
+
+            <div class="demo-card-square65 mdl-card mdl-shadow--2dp">
+                <div class="mdl-card__title mdl-card--expand">
+                    <h2 class="mdl-card__title-text">#Best Out of Waste</h2>
+                </div>
+                <div class="mdl-card__supporting-text">
+                    The chief enemy of creativity is good sense.
+                </div>
+                <div class="mdl-card__actions mdl-card--border">
+                    <a href="https://goo.gl/forms/aA7zYkqEslyxUYL72" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                        REGISTER
+                    </a>
+                    <button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" data-toggle="modal" data-target="#bow">
+                                          Rules
+                                        </button>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+                <!-- Square card -->
+                <style>
+                    .demo-card-square23.mdl-card {
+                    width: 320px;
+                    height: 320px;
+                    margin: 8px;border-radius: 15px;
+                    }
+                    .demo-card-square23 > .mdl-card__title {
+                    color: #fff;
+                    background:
+                        url('img/cs.jpg') bottom right 15% no-repeat #000;
+                    }
+                </style>
+
+            <div class="demo-card-square23 mdl-card mdl-shadow--2dp">
+                <div class="mdl-card__title mdl-card--expand">
+                    <h2 class="mdl-card__title-text">#GAMING</h2>
+                </div>
+                <div class="mdl-card__supporting-text">
+                    Are you a Counter Strike Fan? Join the team and fight your enemy.
+                </div>
+                <div class="mdl-card__actions mdl-card--border">
+                    <a href="https://goo.gl/forms/aA7zYkqEslyxUYL72" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                        REGISTER
+                    </a>
+                    <button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" data-toggle="modal" data-target="#">
+                                          Rules
+                                        </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    
+    
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Confused?</h2>
+                <p>For any queries feel free to call +91-886-073-8773 (Kshitij) or connect with us on </p>
+                <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="https://www.facebook.com/spirits2017/" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>Copyright &copy;2017  |    Designed by Pratyush</p>
+        </div>
+    </footer>
+    <!-- Sart Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    <i class="material-icons">clear</i>
+                </button>
+                <h4 class="modal-title" style="color:#d50000">Rules for Tech Quiz</h4>
+            </div>
+            <div class="modal-body">
+                <p style="color:#d50000"><strong>Round 1 Online MCQ</strong><br>
+General technical knowledge based questions.<br> No negative marking.<br> Some programming based questions. <br>
+<strong>Round 2 Buzzer Round</strong><br>
+Rapid fire round.<br> Simple technical questions to be answered as quickly as possible. <br>
+
+Certificates for all participants in both events.  
+                </p>
+            </div>
+            <div class="modal-footer">
+                
+                <button type="button" class="btn btn-danger btn-default" data-dismiss="modal" onclick="location.href='https://goo.gl/forms/aA7zYkqEslyxUYL72'">Register</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--  End Modal -->
+<!-- Sart Modal for cpc -->
+<div class="modal fade" id="cpc" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    <i class="material-icons">clear</i>
+                </button>
+                <h4 class="modal-title" style="color:#d50000">Rules for Chai Par Charcha</h4>
+            </div>
+            <div class="modal-body">
+                <p style="color:#d50000">
+                    <li>3 participants for the motion .</li>
+                    <li>3 participants against the motion .</li>
+                    <li>2 minutes to every candidate for every round.</li>
+                    <li>Negative marking for crossing the time limit .</li>
+                    <li>Extra points on question asking within time.</li>
+                    <li>Need to respond to audience questions.</li>
+                    <li> Award: certificates for all participants.</li>
+                    <li>Note: In case of extra participants there will be a pre qualification round.</li>
+
+                </p>
+            </div>
+            <div class="modal-footer">
+                
+                <button type="button" class="btn btn-danger btn-default" data-dismiss="modal" onclick="location.href='https://goo.gl/forms/aA7zYkqEslyxUYL72'">Register</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--  End Modal -->
+<!-- Sart Modal for bow -->
+<div class="modal fade" id="bow" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    <i class="material-icons">clear</i>
+                </button>
+                <h4 class="modal-title">Rules for Best Out of Waste</h4>
+            </div>
+            <div class="modal-body">
+                <p style="color:#d50000">
+                    <li>Team event(2-3 members)</li>
+                    <li>Materials will be provided.</li>
+                    <li>Stationary will be yours.</li>
+                    <li>Preparation time-1hr</li>
+                    <li>Presentation time-5 minutes</li>
+                    
+                </p>
+            </div>
+            <div class="modal-footer">
+                
+                <button type="button" class="btn btn-danger btn-default" data-dismiss="modal" onclick="location.href='https://goo.gl/forms/aA7zYkqEslyxUYL72'">Register</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Sart Modal for cpc -->
+<div class="modal fade" id="cpc" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    <i class="material-icons">clear</i>
+                </button>
+                <h4 class="modal-title">Rules for Lan Gaming</h4>
+            </div>
+            <div class="modal-body">
+                <p style="color:#d50000">
+                    <li>Gather for the 5V5 Competetive.</li>
+                    <li>Teams will be competing on the map DUST 2.</li>
+                    <li>Registration fee per team is 150Rs.</li>
+                    <li>Contestants are allowed to bring their own equipment.</li>
+                    <li>However, systems will be provided by the organisers.</li>
+                    <li>Prizes only for the winning team.</li>
+                </p>
+            </div>
+            <div class="modal-footer">
+                
+                <button type="button" class="btn btn-danger btn-default" data-dismiss="modal" onclick="location.href='https://goo.gl/forms/aA7zYkqEslyxUYL72'">Register</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Sart Modal for mi -->
+<div class="modal fade" id="mi" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    <i class="material-icons">clear</i>
+                </button>
+                <h4 class="modal-title" style="color:#d50000">Rules for Mock Interview</h4>
+            </div>
+            <div class="modal-body">
+                <p style="color:#d50000">
+                    <b>Round 1 App God</b><br>
+<li>Conjure up an innovative app idea, draw up a general UI and explain the app to the interviewer. </li>
+<li>Round 2 Interview</li><br>
+<li>Get the experience of being in a real interview, answer technical questions, get helpful tips and prepare for placement interviews. </li>
+
+                </p>
+            </div>
+            <div class="modal-footer">
+                
+                <button type="button" class="btn btn-danger btn-default" data-dismiss="modal" onclick="location.href='https://goo.gl/forms/aA7zYkqEslyxUYL72'">Register</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Sart Modal for lc -->
+<div class="modal fade" id="lc" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    <i class="material-icons">clear</i>
+                </button>
+                <h4 class="modal-title" style="color:#d50000">Rules for Laughter Challenge</h4>
+            </div>
+            <div class="modal-body">
+                <p style="color:#d50000">
+                    <li> Q/A round to be answered in funny way by participant.</li>
+                    <li>Mimic a movie scene.</li>
+                    <li>Stand-up comedy of 3-4 mins.<li>
+
+
+
+                </p>
+            </div>
+            <div class="modal-footer">
+                
+                <button type="button" class="btn btn-danger btn-default" data-dismiss="modal" onclick="location.href='https://goo.gl/forms/aA7zYkqEslyxUYL72'">Register</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Sart Modal for mrmrs -->
+<div class="modal fade" id="mrmrs" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    <i class="material-icons">clear</i>
+                </button>
+                <h4 class="modal-title" style="color:#d50000">Rules for Mr. & Mrs. BIT NOIDA</h4>
+            </div>
+            <div class="modal-body">
+                <p style="color:#d50000">
+                    <li> Shortlisted candidates based on given criteria will be again filtered by the jury(panel of teachers)</li>
+<li>Top 3 finalists(3Males & 3Females) will qualify for final rounds on stage.</li>
+
+
+
+                </p>
+            </div>
+            <div class="modal-footer">
+                
+                <button type="button" class="btn btn-danger btn-default" data-dismiss="modal" onclick="location.href='https://goo.gl/forms/aA7zYkqEslyxUYL72'">Register</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Sart Modal for jam -->
+<div class="modal fade" id="jam" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    <i class="material-icons">clear</i>
+                </button>
+                <h4 class="modal-title" style="color:#d50000">Rules for JAM</h4>
+            </div>
+            <div class="modal-body">
+                <p style="color:#d50000">
+                    <li> EVERY PARTICIPANT WILL COMPETE AGAINST SOME OTHER PARTICIPANTS <br>IN A GIVEN TASK.</li>
+<li>THE PERSON WHO WINS THAT TASK QUALIFIES FOR THE NEXT ROUND.</li>
+<li>THE DECISION OF THE JUDGES/ORGANISERS WILL BE FINAL.</li>
+
+
+                </p>
+            </div>
+            <div class="modal-footer">
+                
+                <button type="button" class="btn btn-danger btn-default" data-dismiss="modal" onclick="location.href='https://goo.gl/forms/aA7zYkqEslyxUYL72'">Register</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Sart Modal for faftm -->
+<div class="modal fade" id="faftm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    <i class="material-icons">clear</i>
+                </button>
+                <h4 class="modal-title" style="color:#d50000">Rules for Fab AD for the MAD</h4>
+            </div>
+            <div class="modal-body">
+                <p style="color:#d50000">
+                   <strong>Round 1 :</strong>
+<li>(Selection and elimination round ) advertisement teaser</li>
+<li>ROUND 2:</li> 
+<li>Time limit = 3 min ( 1min ad + 2 min preparation time)</li>
+<li>Team size = 4 members </li>
+<li>Team will have to make a radio jingle as well as TV commercial AD ( should be appealing to the audience)</li>
+<li>Topic will be provided along with a kit on the spot to present your AD .</li>
+<li>The AD prepared must not contain any obscene words, any subject that hurt the feelings of a culture ( language/ religion/ region)</li>
+<li>Judging will be done on teams originality, humor , stage presentation and usage of props.</li> 
+<li> Participants have to make use of the material given in the kit. </li>
+<li>Use of any other material would lead to disqualification of team</li>
+ <li>ROUND 3:</li>
+<li>Mentos round - Deemag ki batti jalao
+( Question answer round)</li>
+
+
+                </p>
+            </div>
+            <div class="modal-footer">
+                
+                <button type="button" class="btn btn-danger btn-default" data-dismiss="modal" onclick="location.href='https://goo.gl/forms/aA7zYkqEslyxUYL72'">Register</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Sart Modal for rang -->
+<div class="modal fade" id="rang" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    <i class="material-icons">clear</i>
+                </button>
+                <h4 class="modal-title" style="color:#d50000">Rules for Rangoli</h4>
+            </div>
+            <div class="modal-body">
+                <p style="color:#d50000">
+                    <li>Team participation (2-3 participants)</li>
+<li> Material will not be provided</li>
+<li> Time duration:  1 hour </li>
+<li>Theme: Halloween</li>
+
+
+                </p>
+            </div>
+            <div class="modal-footer">
+                
+                <button type="button" class="btn btn-danger btn-default" data-dismiss="modal" onclick="location.href='https://goo.gl/forms/aA7zYkqEslyxUYL72'">Register</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Sart Modal for sing -->
+<div class="modal fade" id="sing" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    <i class="material-icons">clear</i>
+                </button>
+                <h4 class="modal-title" style="color:#d50000">Rules for Singing</h4>
+            </div>
+            <div class="modal-body">
+                <p style="color:#d50000">
+                    <li> Duets and solo's both are allowed. </li>
+<li> Time limit ( 4 mim max ) </li>
+<li> No electronic instruments will be provided manage on your own. </li>
+<li> Lyrics should be sung correctly.</li>
+<li>If you want to bring your instrumental music bring it with you in a USB.</li> 
+
+
+                </p>
+            </div>
+            <div class="modal-footer">
+                
+                <button type="button" class="btn btn-danger btn-default" data-dismiss="modal" onclick="location.href='https://goo.gl/forms/aA7zYkqEslyxUYL72'">Register</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Sart Modal for msmt -->
+<div class="modal fade" id="msmt" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    <i class="material-icons">clear</i>
+                </button>
+                <h4 class="modal-title" style="color:#d50000" >Rules for Antakshari</h4>
+            </div>
+            <div class="modal-body">
+                <p style="color:#d50000">
+                    <li>A TEAM OF 3 MEMBERS MUST REGISTER BEFORE 23rd MARCH</li>
+
+<li>RULES AND REGULATIONS WILL BE DISCLOSED AT THE TIME OF THE EVENT.</li>
+
+                </p>
+            </div>
+            <div class="modal-footer">
+                
+                <button type="button" class="btn btn-danger btn-default" data-dismiss="modal" onclick="location.href='https://goo.gl/forms/aA7zYkqEslyxUYL72'">Register</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Sart Modal for fp -->
+<div class="modal fade" id="fp" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    <i class="material-icons">clear</i>
+                </button>
+                <h4 class="modal-title" style="color:#d50000">Rules for Face Painting</h4>
+            </div>
+            <div class="modal-body">
+                <p style="color:#d50000">
+                    <li> A team of 2 people is allowed where one will be drawing and the other member will work as a model.</li>  
+<li> Participants are required to bring their own material but make sure the colours used are apt to apply on face.</li>
+
+<li>Acrylic colours are not allowed neither any type of stencils. </li>
+<li> Use of paint brush and sponge is only permitted. Glitter can also be used.</li> 
+ <li>No help or assistant is permitted. </li>
+ <li>Total time to complete the task will be 45 mins.</li>
+<li>The topic for the competition is "GOTHIC". Try to use orange and black colour prominently.</li>
+ <li>Judges decision will be final.</li>
+
+
+                </p>
+            </div>
+            <div class="modal-footer">
+                
+                <button type="button" class="btn btn-danger btn-default" data-dismiss="modal" onclick="location.href='https://goo.gl/forms/aA7zYkqEslyxUYL72'">Register</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Sart Modal for dram -->
+<div class="modal fade" id="dram" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    <i class="material-icons">clear</i>
+                </button>
+                <h4 class="modal-title" style="color:#d50000">Rules for Dramebaaz</h4>
+            </div>
+            <div class="modal-body">
+                <p style="color:#d50000">
+                    <li>Participation :individual or a team of 2.</li>      
+<li>Rounds:Qualification round and final round .</li>
+<li>Act should not be more than 5 minutes in first round and 10 minutes in second round .</li>
+<li>Acts related to the fest theme and social issue will be appreciated .</li>
+<li>No obsence action or language should be used during the act.</li>
+<li>Use of props should be informed before hand .</li>
+<li>Judges decision will be final and outstanding .</li>
+
+
+                </p>
+            </div>
+            <div class="modal-footer">
+                
+                <button type="button" class="btn btn-danger btn-default" data-dismiss="modal" onclick="location.href='https://goo.gl/forms/aA7zYkqEslyxUYL72'">Register</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Sart Modal for cpd -->
+<div class="modal fade" id="cpd" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    <i class="material-icons">clear</i>
+                </button>
+                <h4 class="modal-title" style="color:#d50000">Rules for Chance Pe Dance</h4>
+            </div>
+            <div class="modal-body">
+                <p style="color:#d50000">
+                    <li>There will be 2 rounds:</li>
+<li>1st Round: Solo dance</li>
+<li>2nd Round: Dancing with a prop.(for those selected in the 1st round,prop will be given to them)</li>
+<li>Marks will be awarded on basis of prop usage</li>
+<li> The decision of the judges shall be binding.</li>
+
+
+                </p>
+            </div>
+            <div class="modal-footer">
+                
+                <button type="button" class="btn btn-danger btn-default" data-dismiss="modal" onclick="location.href='https://goo.gl/forms/aA7zYkqEslyxUYL72'">Register</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Sart Modal for bbs -->
+<div class="modal fade" id="bbs" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    <i class="material-icons">clear</i>
+                </button>
+                <h4 class="modal-title" style="color:#d50000">Rules for Beg Borrow Steal</h4>
+            </div>
+            <div class="modal-body">
+                <p style="color:#d50000">
+                    <li>A Team will comprise of upto 3 players.</li>
+<li>All the teams will be provided with a list of items.</li>
+<li>Team members will have to complete the task within a time limit of 30 minutes.</li>
+<li>Team can either beg, borrow or steal the items that are enlisted and provided to them.</li>
+<li>Teams will have to get themselves registered before the commencement of the event.</li>
+<li>After the completion of the task the teams are required to report to the coordinators for evaluation.</li>
+<li>Teams will be judged on first come, first serve basis and also the items they were able to collect.</li>
+<li>Decision of the judges is final and binding in case of any conflict.</li>
+
+
+                </p>
+            </div>
+            <div class="modal-footer">
+                
+                <button type="button" class="btn btn-danger btn-default" data-dismiss="modal" onclick="location.href='https://goo.gl/forms/aA7zYkqEslyxUYL72'">Register</button>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/grayscale.min.js"></script>
+    <!--carousel js-->
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>
